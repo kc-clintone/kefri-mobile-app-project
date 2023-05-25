@@ -1,0 +1,22 @@
+{
+	"expo": {
+		"name": "main",
+		"slug": "main",
+		"scheme": "main",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.main.main"
+		},
+		"android": {
+			"googleServicesFile": "./google-services.json",
+			"package": "com.main"
+		},
+		"plugins": ["@react-native-firebase/app", "expo-image-picker"]
+	}
+}
