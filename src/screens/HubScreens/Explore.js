@@ -43,9 +43,9 @@ export default function Explore() {
 			<View style={styles.heroContainer}>
 				<View
 					style={{
-						width: '90%',
+						width: '92%',
 						alignSelf: 'center',
-						marginVertical: 17,
+						marginVertical: 15,
 						justifyContent: 'space-between',
 						flexDirection: 'row',
 					}}
@@ -65,7 +65,7 @@ export default function Explore() {
 					<View style={styles.cardItem}>
 						<Ionicons name='alarm' size={40} color='black' />
 						<Text style={{ fontSize: 18, fontWeight: '500', color: 'white' }}>
-							Farm tips
+							Popular farm tips
 						</Text>
 					</View>
 				</TouchableOpacity>

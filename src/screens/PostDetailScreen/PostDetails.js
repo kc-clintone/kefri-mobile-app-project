@@ -25,7 +25,7 @@ export default function UploadPost() {
 						/>
 						<Image
 							source={{ uri: testData[5].profileImage }}
-							alt='alt'
+							alt='profile_image'
 							style={styles.imageStyle}
 						/>
 					</View>
@@ -48,7 +48,7 @@ export default function UploadPost() {
 				<View style={styles.post}>
 					<Image
 						source={{ uri: testData[5].profileImage }}
-						alt='alt'
+						alt='profile_image'
 						style={styles.postImg}
 					/>
 				</View>

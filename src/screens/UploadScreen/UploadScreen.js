@@ -13,7 +13,7 @@ export default function UploadScreen() {
 // styles
 const styles = StyleSheet.create({
 	mainView: {
-		marginTop: 10,
+		marginTop: 11,
 		flex: 1,
 	},
 });

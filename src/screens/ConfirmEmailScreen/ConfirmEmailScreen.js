@@ -36,7 +36,7 @@ const ConfirmEmailScreen = () => {
       await Auth.resendSignUp(username);
       Alert.alert('Success', 'Code was resent to your email');
     } catch (e) {
-      Alert.alert('Oops', e.message);
+      Alert.alert('Oops, an error occured', e.message);
     }
   };
 
